@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <center>
+        <div class="container">
+            <div class="page-header">
+                <h1>Photo Gallery</h1>
+            </div>
+
+            <div style="height: 450px; width: 900px;" id="myimages" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myimages" data-slide-to="0" class="active"></li>
+                    <li data-target="#myimages" data-slide-to="1"></li>
+                    <li data-target="#myimages" data-slide-to="2"></li>
+                    <li data-target="#myimages" data-slide-to="3"></li>
+                </ol>
+
+
+                <!--Wrapper for Slides-->
+                <div style="margin-top: 100px" class="carousel-inner">
+
+                    <div style="margin-top: 50px" class="item active">
+                        <img src="Howling-arctic-wolf.jpg" alt="">
+                    </div>
+
+                    <div style="margin-top: 50px" class="item">
+                        <img src="jaguar.jpg" alt="">
+                    </div>
+
+                    <div style="margin-top: 50px" class="item">
+                        <img src="Orca.jpg" alt="">
+                    </div>
+
+                    <div style="margin-top: 50px" class="item">
+                        <img src="blue-macaw.jpg" alt="">
+                    </div>
+                </div>
+                <!-- Left Control -->
+                <a class="left carousel-control" href="#myimages" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+
+                <!-- Right Control -->
+                <a class="right carousel-control" href="#myimages" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+            
+    </div>
+        <div id="grid">
+           <img class="col-lg-2 col-md-2 col-sm-3 col-col-xs-6" src="grid-gallery-img-1.jpg" alt="">
+           
+           <img class="col-lg-2 col-md-2 col-sm-3 col-col-xs-6" src="grid-gallery-img-2.jpg" alt=""> 
+           
+            <img class="col-lg-2 col-md-2 col-sm-3 col-col-xs-6" src="grid-gallery-img-3.jpg" alt="">
+            
+            <img class="col-lg-2 col-md-2 col-sm-3 col-col-xs-6" src="grid-gallery-img-4.jpg" alt="">
+            
+            <img class="col-lg-2 col-lg-2 col-lg-2 col-lg-2 col-lg-2 col-lg-2" src="grid-gallery-img-5.jpg" alt="">
+            
+            <img class="col-lg-2 col-md-2 col-sm-3 col-col-xs-6" src="grid-gallery-img-6.jpg" alt="">
+            
+            <img class="col-lg-2 col-md-2 col-sm-3 col-col-xs-6" src="grid-gallery-img-7.jpg" alt="">
+            
+            <img class="col-lg-2 col-md-2 col-sm-3 col-col-xs-6" src="grid-gallery-img-8.jpg" alt="">
+            
+            <img class="col-lg-2 col-md-2 col-sm-3 col-col-xs-6" src="grid-gallery-img-9.jpg" alt="">
+            
+            <img class="col-lg-2 col-lg-2 col-lg-2 col-md-2 col-sm-3 col-col-xs-6" src="grid-gallery-img-10.jpg" alt="">
+            
+            <img class="col-lg-2 col-lg-2 col-md-2 col-sm-3 col-col-xs-6" src="grid-gallery-img-11.jpg" alt="">
+            
+            <img class="col-lg-2 col-md-2 col-sm-3 col-col-xs-6" src="grid-gallery-img-12.jpg" alt="">
+        </div>
+    
+    </center>
+
+</body>
+
+</html>
